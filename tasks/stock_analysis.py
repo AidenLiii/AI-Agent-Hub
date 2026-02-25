@@ -26,7 +26,7 @@ def get_stock_data(tickers):
 
 def generate_report(raw_data):
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-3-flash')
     
     prompt = f"""
     Role: Senior Investment Advisor.

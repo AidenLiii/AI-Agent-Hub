@@ -80,7 +80,7 @@ if __name__ == "__main__":
     
     # Execution Flow
     print("Fetching stock data...")
-    data = get_stock_data(target_tickers)
+    data = get_dca_signals(target_tickers)
     
     print("Generating AI report...")
     report = generate_report(data)

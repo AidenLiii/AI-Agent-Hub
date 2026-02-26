@@ -1,2 +1,4 @@
-yfinance
-google-generativeai
+yfinance>=0.2.0
+google-generativeai>=0.8.0
+pandas>=2.0.0
+numpy>=1.24.0
